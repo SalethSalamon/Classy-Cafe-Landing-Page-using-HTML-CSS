@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.nav__bar {
+    height: 100px;
+    padding-right: 120px;
+    padding-left: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__bar li a {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav__bar li {
+    font-size: 18px;
+    list-style-type: none;
+
+}
+
+.slidemain {
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+}
+
+.slidemain__left {
+    height: 100%;
+    width: 35%;
+    background-image: url(./images/top-left-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 270px;
+    padding-bottom: 270px;
+}
+
+.slidemain__right {
+    height: 100%;
+    width: 65%;
+    background-image: url(./images/slide-01.jpg);
+}
+
+.slidemain__left h4 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.slidemain__left h6 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+.reservation__button a {
+
+
+    font-size: 13px;
+    color: #fb5849;
+    background-color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.aboutus {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.aboutus__left {
+    height: 100%;
+    width: 50%;
+
+}
+
+.aboutus__right {
+    height: 100%;
+    width: 50%;
+}
+
+.aboutus__heading h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #424242;
+
+}
+
+.aboutus__heading p {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #424242;
+
+}
+
+.aboutus__heading h6 {
+
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: normal;
+    color: #fb5849;
+    letter-spacing: 2px;
+
+}
+
+.aboutus__heading {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 110px;
+    padding-top: 120px;
+    padding-right: 125px;
+
+}
+
+.aboutusimg {
+    width: 100%;
+    height: 20%;
+}
+
+.dishallimg img {
+    width: 130px;
+    height: 130px;
+}
+
+.dishallimg {
+    padding-left: 110px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.about__video {
+    width: 420px;
+    height: 400px;
+    ;
+}
+
+.about__video img {
+    width: 420px;
+    height: 400px;
+}
+
+.aboutus__right {
+    padding-top: 150px;
+}
+
+.ourmenu {
+    width: 100%;
+    height: 900px;
+    background-color: #fffafa;
+}
+
+
+.menuheader {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    gap: 30px;
+    padding-top: 30px;
+
+
+}
+
+.menuimg {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.menuheader h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #424242;
+}
+
+.menuheader h6 {
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: normal;
+    color: #fb5849;
+    letter-spacing: 2px;
+}
+
+.menuimg1 img,
+.menuimg2 img,
+.menuimg3 img,
+.menuimg4 img,
+.menuimg5 img {
+    width: 240px;
+    height: 400px;
+}
+
+.chefs {
+    width: 100%;
+    height: 900px;
+}
+
+.chefheader {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.chefimg {
+    width: 100%;
+    height: 70%;
+}
+
+.chefheader h6 {
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: normal;
+    color: #fb5849;
+    letter-spacing: 2px;
+    padding-top: 150px;
+}
+
+.chefheader h2 {
+
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #424242;
+
+}
+
+.chefheader h2 .span1 {
+
+    text-align: center;
+    padding-left: 15px;
+}
+
+.chefheader h2 .span2 {
+
+    text-align: center;
+    padding-left: 100px;
+}
+
+.chefimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.chef1,
+.chef2,
+.chef3 {
+    width: 350px;
+    height: 420px;
+    border: 1px solid #424242;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+.chef1 img,
+.chef2 img,
+.chef3 img {
+    width: 338px;
+    height: 330px;
+
+}
+
+.chef1 h4,
+.chef2 h4,
+.chef3 h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.chef1 span,
+.chef2 span,
+.chef3 span {
+
+    letter-spacing: .5px;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+.chef1 h4,
+.chef2 h4,
+.chef3 h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.chef1 span,
+.chef2 span,
+.chef3 span {
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+.contactandtable {
+    height: 780px;
+    width: 100%;
+    background-image: url(./images/reservation-bg.jpg);
+    background-size: cover;
+}
+
+.contactcontent {
+    width: 50%;
+    height: 100%;
+
+}
+
+.table__reservation {
+    width: 50%;
+    height: 100%;
+}
+
+.mobilenum h4,
+.email h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242
+}
+
+.mobilenum span a,
+.email span a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 14px;
+
+}
+
+.mobilenum,
+.email {
+    width: 260px;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+
+}
+
+.mobileandemail {
+    display: flex;
+    gap: 30px;
+
+}
+
+.contactcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+    padding-left: 110px;
+    padding-bottom: 150px;
+    position: relative;
+
+}
+
+.contact h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.contactpara {
+    font-family: Poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.contact h6 {
+    font-family: Poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contactandtable {
+    display: flex;
+
+}
+
+.table {
+    width: 500px;
+    height: 590px;
+    background-color: #fffafa;
+    border-radius: 5px;
+}
+
+.table__reservation {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.table__reservation .table h4 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2a2a2a;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.yourname,
+.youremail,
+.yourphonenum,
+.guests,
+.dob,
+.time {
+    color: rgb(42, 42, 42);
+    font-size: 14px;
+    width: 40%;
+    height: 46px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    text-indent: 20px;
+
+}
+
+.messege {
+    color: rgb(42, 42, 42);
+    font-size: 14px;
+    width: 95%;
+    height: 200px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    text-indent: 20px;
+
+}
+
+.tablecontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.messagebox {
+    padding-left: 25px;
+}
+
+.messagebox button {
+
+    border: 1px solid rgb(251, 88, 73);
+    background-color: rgb(251, 88, 73);
+    width: 95%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.messagebox button a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.offermenu {
+    height: 1100px;
+    width: 100%;
+}
+
+.offerheader {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    align-items: center;
+    gap: 25px;
+}
+
+.offerheader h6 {
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.offerheader h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #2a2a2a;
+}
+
+.offerheader h4 span {
+    padding-left: 60px;
+}
+
+.offericon {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.meal {
+    width: 100%;
+    height: 55%;
+}
+
+.breakfast,
+.lunch,
+.dinner {
+    width: 90px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.breakfast a,
+.lunch a,
+.dinner a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2a2a2a;
+}
+
+.breakfast a span {
+    padding: 15px;
+}
+
+.dinner a span {
+    padding: 20px;
+}
+
+.lunch a span {
+    padding: 20px;
+}
+
+.meal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.meal1 {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.meal2 {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal3 {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal4 {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal5 {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal6 {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mealheading h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.mealheading p {
+
+    font-size: 15px;
+    color: #2a2a2a;
+    padding-top: 20px;
+}
+
+.mealprice h6 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.mealprice {
+    width: 70px;
+    height: 70px;
+    background-color: #fb5849;
+    border-radius: 3px;
+
+
+}
+
+.mealheading {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 155px;
+    background-color: #fb5849;
+    display: flex;
+}
+
+.social__media {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.icon__logo {
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.copyrights {
+    width: 40%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyrights p {
+    padding-left: 50px;
+    text-align: right;
+}
+
+.nav__bar {
+    position: relative;
+}
+
+.dropdownmenu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+
+
+}
+
+.drop:hover .dropdownmenu {
+    display: block;
+    padding: 10px;
+}
+
+.dropdownmenu li {
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    background-color: #f7f7f7;
+}
+
+.dropdownmenu li a {
+    font-size: 15px;
+}
+
+.phone__icon {
+    position: absolute;
+    padding-bottom: 160px;
+}
+
+.phone__icon img {
+    border-radius: 30px;
+}
+
+.email__icon {
+    position: absolute;
+    padding-bottom: 160px;
+
+}
+
+.email__icon img {
+    border-radius: 60px;
+}
+
+.dropdownmenu li:hover {
+    font-size: 25px;
+    background-color: white;
+}
+
+
+.nav li a:hover {
+    color: #fb5849;
+}
+
+.chef1:hover h4 {
+    color: #fb5849;
+}
+
+.chef2:hover h4 {
+    color: #fb5849;
+}
+
+.chef3:hover h4 {
+    color: #fb5849;
+}
+
+.reservation__button a:hover {
+    background: #fce2e0;
+
+}
+
+ 
+    
